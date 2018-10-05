@@ -3,7 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28010.2016
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RESTService", "RESTService\RESTService.csproj", "{7D4E5F14-5C22-4CBF-80C5-57D7FA6D67BA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RESTService", "RESTService\RESTService.csproj", "{7D4E5F14-5C22-4CBF-80C5-57D7FA6D67BA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ModelLibrary", "ModelLibrary\ModelLibrary.csproj", "{762C7B77-9C8C-49D8-96B9-82A818E3F7D4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalculatorConsumeREst", "CalculatorConsumeREst\CalculatorConsumeREst.csproj", "{44030DC0-B565-4732-BECF-B8F76D00A3AC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +19,14 @@ Global
 		{7D4E5F14-5C22-4CBF-80C5-57D7FA6D67BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7D4E5F14-5C22-4CBF-80C5-57D7FA6D67BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7D4E5F14-5C22-4CBF-80C5-57D7FA6D67BA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{762C7B77-9C8C-49D8-96B9-82A818E3F7D4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{762C7B77-9C8C-49D8-96B9-82A818E3F7D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{762C7B77-9C8C-49D8-96B9-82A818E3F7D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{762C7B77-9C8C-49D8-96B9-82A818E3F7D4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{44030DC0-B565-4732-BECF-B8F76D00A3AC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{44030DC0-B565-4732-BECF-B8F76D00A3AC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{44030DC0-B565-4732-BECF-B8F76D00A3AC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{44030DC0-B565-4732-BECF-B8F76D00A3AC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

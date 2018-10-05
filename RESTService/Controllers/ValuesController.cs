@@ -4,13 +4,13 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 
-namespace RESTService.Controllers
+namespace RESTService.Controllers 
 {
     [Route("api/[controller]")]
     [ApiController]
     public class ValuesController : ControllerBase
     {
-        // GET api/values
+        // GET api/values  Kommentareren her Viser hvordan URL'en ser ud, men har ingen effekt på eksekveringen.
         [HttpGet]
         public ActionResult<IEnumerable<string>> Get()
         {
